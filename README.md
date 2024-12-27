@@ -19,7 +19,7 @@ Calculates the amount of shares one needs to buy to rebalance an investment port
 Let's imagine that John Smith decided to invest $1,800 and buy shares of 4 companies. He thought it would be best to allocate his money in the following proportion:
 
 Asset Name | Target Percentage
---- | ---
+--- | ---:
 Weyland-Yutani | 15%
 Krusty Krab | 45%
 Majima Construction | 10%
@@ -28,7 +28,7 @@ Speedwagon Foundation | 30%
 Based on these percentages, Mr. Smith calculated how much money he should spend buying shares of each company. For example, 15% of $1,800 is $270, etc:
 
 Asset Name | Target Percentage | Projected Spending
---- | --- | ---
+--- | ---: | ---:
 Weyland-Yutani | 15% | $270
 Krusty Krab | 45% | $810
 Majima Construction | 10% | $180
@@ -37,7 +37,7 @@ Speedwagon Foundation | 30% | $540
 Mr. Smith looked up each company's share prices and saw nice round values (he was lucky):
 
 Asset Name | Target Percentage | Projected Spending | Current Share Price
---- | --- | --- | ---
+--- | ---: | ---: | ---:
 Weyland-Yutani | 15% | $270 | $90
 Krusty Krab | 45% | $810 | $45
 Majima Construction | 10% | $180| $90
@@ -46,7 +46,7 @@ Speedwagon Foundation | 30% | $540 | $60
 From there, it was obvious to Mr. Smith that if 1 share of a company costs $90, and he can spend $270 on that company, he can buy 3 shares, etc:
 
 Asset Name | Target Percentage | Projected Spending | Current Share Price | Shares to Buy
---- | --- | --- | --- | ---
+--- | ---: | ---: | ---: | ---:
 Weyland-Yutani | 15% | $270 | $90 | 3
 Krusty Krab | 45% | $810 | $45 | 18
 Majima Construction | 10% | $180| $90 | 2
@@ -57,7 +57,7 @@ Mr. Smith bought 3 shares of Weyland-Yutani, 18 shares of Krusty Krab, 2 shares 
 With time, the value of Mr. Smith's portfolio grew, and the asset prices kept changing. Mr. Smith saved up $1,800 more and wanted to invest this money again. However, when he looked at his portfolio, the percentages no longer matched his targets due to asset price changes:
 
 Asset Name | Target Percentage | Current Total Value | Current Share Price | Current Percentage
---- | --- | --- | --- | ---
+--- | ---: | ---: | ---: | ---:
 Weyland-Yutani | 15% | $1,000.23 | $102.32 | 10.20%
 Krusty Krab | 45% | $5,000.84 | $62.89 | 51.02%
 Majima Construction | 10% | $800.52| $93.11 | 8.17%
