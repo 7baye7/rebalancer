@@ -58,12 +58,12 @@ With time, the value of Mr. Smith's portfolio grew, and the asset prices kept ch
 
 Asset Name | Target Percentage | Current Total Value | Current Share Price | Current Percentage
 --- | ---: | ---: | ---: | ---:
-Weyland-Yutani | 15% | $1,000.23 | $102.32 | 10.20%
-Krusty Krab | 45% | $5,000.84 | $62.89 | 51.02%
-Majima Construction | 10% | $800.52| $93.11 | 8.17%
-Speedwagon Foundation | 30% | $3,000.15 | $85.66 | 30.61%
+Weyland-Yutani | 15% | $1,589.23 | $102.32 | 14.67%
+Krusty Krab | 45% | $5,408.84 | $63.89 | 49.91%
+Majima Construction | 10% | $825.52| $93.11 | 7.62%
+Speedwagon Foundation | 30% | $3,013.15 | $85.66 | 27.80%
 
-Mr. Smith saw that Weyland-Yutani now occupies only 10.20% of his portfolio instead of 15%, Krusty Krab grew to be 51.02% instead of mere 45%, etc. How many shares of each company does he need to buy so that:
+Mr. Smith saw that Majima Construction now occupies only 7.62% of his portfolio instead of 10%, Krusty Krab grew to be 49.91% instead of mere 45%, etc. How many shares of each company does he need to buy so that:
 1. the percentage of each asset in the portfolio goes back to the target percentage as closely as possible, and 
 2. as much as possible is spent of the $1,800?
 
@@ -73,21 +73,21 @@ Download this repository and open [index.html](index.html) in your browser:
 
 ![start](img/start.jpg)
 
-It doesn't look super interesting, so click on the "Load sample data" button:
+Enter the investment limit, then add assets by clicking "Add new asset" button:
+
+![editable](img/editable.jpg)
+
+Or click the "Load sample data" button to load a full sample:
 
 ![sample](img/sample.jpg)
 
-We're now seeing the data outlined in the "Problem" section of this readme. Click "Start calculation" and wait for a couple of seconds while the genetic algorithm runs...
+After adding all of your assets or loading a sample, click "Start calculation" and wait for a couple of seconds while the genetic algorithm runs...
 
 ![calculation](img/calculation.jpg)
 
-The solution says it would be best to buy 7 shares of Weyland-Yutani, 3 shares of Krusty Krab, 4 shares of Majima Construction, and 6 shares of Speedwagon Foundation. This way all but $8.69 of the initial $1800 would be spent.
+The solution says it would be best to buy 3 shares of Weyland-Yutani, 4 shares of Krusty Krab, 5 shares of Majima Construction, and 9 shares of Speedwagon Foundation. This way all but $0.99 of the initial $1800 would be spent.
 
 ![full](img/full.jpg)
-
-All assets and their data are editable. New assets can be added, and old assets can be removed.
-
-![editable](img/editable.jpg)
 
 Since the genetic algorithm is stochastic and is not guaranteed to always converge to the best solution, the calculator may produce more than one solution when run multiple times over identical data. Multiple solutions are stored in memory and can be recalled from the "Load solution..." menu (visible only with 2+ unique solutions, max 5 stored solutions on identical data):
 
